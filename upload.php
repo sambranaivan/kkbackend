@@ -1,5 +1,5 @@
 <?php
-error_reporting("E_ALL");
+error_reporting(E_ALL);
   $name = $_FILES['file']['name'];
   $temp = $_FILES['file']['tmp_name'];
 

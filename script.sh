@@ -1,1 +1,1 @@
-ffmpeg -i "uploads/video.mp4" -i "uploads/arrebol.mp4" -filter_complex "[0:v]scale=480:640,setsar=1[l];[1:v]scale=480:640,setsar=1[r];[l][r]hstack;[0][1]amix"  new.mp4
+ffmpeg -i "uploads/video.mp4" -i "uploads/arrebol.mp4" -filter_complex "[0:v]scale=480:640,setsar=1[l];[1:v]scale=480:640,setsar=1[r];[l][r]hstack;[0][1]amix"  new.mp4';
